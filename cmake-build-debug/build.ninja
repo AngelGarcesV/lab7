@@ -55,12 +55,6 @@ build CMakeFiles/lab7.dir/main.cpp.o: CXX_COMPILER__lab7_Debug /home/angel/Docum
   OBJECT_DIR = CMakeFiles/lab7.dir
   OBJECT_FILE_DIR = CMakeFiles/lab7.dir
 
-build CMakeFiles/lab7.dir/binaryTree.cpp.o: CXX_COMPILER__lab7_Debug /home/angel/Documents/Universidad/PracticasClion/lab7/binaryTree.cpp || cmake_object_order_depends_target_lab7
-  DEP_FILE = CMakeFiles/lab7.dir/binaryTree.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/lab7.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab7.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab7
@@ -69,7 +63,7 @@ build CMakeFiles/lab7.dir/binaryTree.cpp.o: CXX_COMPILER__lab7_Debug /home/angel
 #############################################
 # Link the executable lab7
 
-build lab7: CXX_EXECUTABLE_LINKER__lab7_Debug CMakeFiles/lab7.dir/main.cpp.o CMakeFiles/lab7.dir/binaryTree.cpp.o
+build lab7: CXX_EXECUTABLE_LINKER__lab7_Debug CMakeFiles/lab7.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/lab7.dir
   POST_BUILD = :
